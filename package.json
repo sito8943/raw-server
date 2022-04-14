@@ -9,6 +9,8 @@
     "express": "^4.17.3",
     "express-basic-auth": "^1.2.1",
     "firebase": "^9.6.10",
+    "loading-cli": "^1.1.0",
+    "path": "^0.12.7",
     "xhr2": "^0.2.1"
   },
   "scripts": {
