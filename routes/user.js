@@ -8,12 +8,7 @@ const load = require("../model/loading");
 
 const router = express.Router();
 
-const {
-  login,
-  loadUsers,
-  loadUser,
-  register,
-} = require("../controllers/userController");
+const { login, loadUsers, loadUser, register } = require("../controllers/user");
 
 //auth system
 router.use(

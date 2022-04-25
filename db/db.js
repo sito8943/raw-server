@@ -1,6 +1,7 @@
-const firebase = require("firebase");
 const { firebaseConfig } = require("../config");
 
-const db = firebase.initializeApp(firebaseConfig);
+const { initializeApp } = require("firebase-admin/app");
+
+const db = initializeApp(firebaseConfig, "server");
 
 module.exports = db;

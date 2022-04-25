@@ -1,9 +1,11 @@
 const { base64encode } = require("nodejs-base64");
 const firebase = require("../db/db");
 
+const { getFirestore } = require("firebase-admin/firestore");
+
 const { IsUndefined } = require("../utils/functions");
 
-const db = firebase.firestore();
+const db = getFirestore(firebase);
 
 /**
  * @param {string} option - The user's ID.

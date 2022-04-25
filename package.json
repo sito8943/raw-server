@@ -1,6 +1,5 @@
 {
-  "name": "codememe2share-docs",
-  "homepage": "https://sitonumbis.github.io/CodeMeme2Share-Docs-Client/",
+  "name": "raw-server",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,30 +7,16 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "express-basic-auth": "^1.2.1",
-    "firebase": "^9.6.10",
+    "firebase-admin": "^10.1.0",
     "loading-cli": "^1.1.0",
+    "nodejs-base64": "^2.0.0",
     "path": "^0.12.7",
+    "randomstring": "^1.2.2",
+    "react": "0.13.3",
+    "socket.io": "^4.5.0",
     "xhr2": "^0.2.1"
   },
   "scripts": {
     "start": "node ./server.js"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
